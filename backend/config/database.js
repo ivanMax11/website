@@ -8,6 +8,9 @@ const sequelize = new Sequelize(
   {
     host: process.env.DB_HOST,
     dialect: process.env.DB_DIALECT,
+    dialectOptions: {
+      connectTimeout: 60000, // Tiempo de espera de 60 segundos
+    },
   }
 );
 
