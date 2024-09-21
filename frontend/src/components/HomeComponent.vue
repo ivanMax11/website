@@ -63,7 +63,7 @@
                   <div class="about-me-text">
                     <p>
                       Soy Iván Maximiliano Monte, desarrollador de software con experiencia en diversas
-                      tecnologías. Mi enfoque se centra en crear soluciones eficientes y adaptadas a las necesidades de
+                      tecnologías. Mi enfoque se centra en crear soluciones eficientes y adaptadas a las necesidades
                       que tenemos actualmente. A
                       través de
                       mi marca personal, MonteStack, ofrezco servicios de desarrollo personalizados, siempre
@@ -214,7 +214,11 @@ export default {
     const submitForm = async () => {
   try {
     console.log('Enviando formulario...');
-    const response = await axios.post('http://localhost:3000/api/contacts', {
+    // Defining apiUrl correctly from the enviroments
+    const apiUrl = process.env.VUE_APP_API_URL;
+
+    
+    const response = await axios.post(`${apiUrl}/api/contacts`, {
       name: form.value.name,
       email: form.value.email,
       message: form.value.message,
