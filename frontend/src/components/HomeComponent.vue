@@ -162,30 +162,37 @@
       </section>
 
       <!-- Sección de contacto -->
-      <section id="contact" class="section contact-section">
-        <div class="container">
-          <h2 class="text-center">Contacto</h2>
-          <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
-          <form @submit.prevent="submitForm" class="contact-form">
-            <div class="mb-3">
-              <label for="name" class="form-label">Nombre</label>
-              <input type="text" v-model="form.name" class="form-control" id="name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" v-model="form.email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Mensaje</label>
-              <textarea v-model="form.message" class="form-control" id="message" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-          <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
-            ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
-          </div>
-        </div>
-      </section>
+      <!-- Sección de contacto -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <h2 class="text-center">Contacto</h2>
+    <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
+    <form @submit.prevent="submitForm" class="contact-form">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" v-model="form.name" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" v-model="form.email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Teléfono</label>
+        <input type="text" v-model="form.phone" class="form-control" id="phone">
+      </div>
+      
+      <div class="mb-3">
+        <label for="message" class="form-label">Mensaje</label>
+        <textarea v-model="form.message" class="form-control" id="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
+      ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
+    </div>
+  </div>
+</section>
+
     </div>
   </div>
 </template>
@@ -205,32 +212,37 @@ export default {
     const successMessage = ref(false);
 
     const submitForm = async () => {
-      try {
-        console.log('Enviando formulario...');
-        const response = await axios.post('http://localhost:3000/api/contacts', {
-          name: form.value.name,
-          email: form.value.email,
-          message: form.value.message
-        });
+  try {
+    console.log('Enviando formulario...');
+    const response = await axios.post('http://localhost:3000/api/contacts', {
+      name: form.value.name,
+      email: form.value.email,
+      message: form.value.message,
+      phone: form.value.phone, // Agregar el campo de teléfono
+      
+    });
 
-        console.log('Respuesta del servidor:', response);
+    console.log('Respuesta del servidor:', response);
 
-        if (response.status === 201) { // asegúrate de que el código de respuesta sea 201 (creado)
-          successMessage.value = true;
-          form.value.name = '';
-          form.value.email = '';
-          form.value.message = '';
+    if (response.status === 201) {
+      successMessage.value = true;
+      form.value.name = '';
+      form.value.email = '';
+      form.value.message = '';
+      form.value.phone = ''; // Limpiar el campo de teléfono
+      
 
-          // Scroll hacia la parte superior o hacia una sección específica
-          setTimeout(() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }, 3000); // después de mostrar el mensaje de éxito
-        }
-      } catch (error) {
-        console.error('Error al enviar el formulario:', error);
-        alert('Hubo un error al enviar tu mensaje, por favor intenta más tarde.');
-      }
-    };
+      // Scroll hacia la parte superior o hacia una sección específica
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 3000);
+    }
+  } catch (error) {
+    console.error('Error al enviar el formulario:', error);
+    alert('Hubo un error al enviar tu mensaje, por favor intenta más tarde.');
+  }
+};
+
 
     return { form, successMessage, submitForm };
   }
