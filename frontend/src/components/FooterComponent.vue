@@ -3,9 +3,9 @@
       <div class="container">
         <p>&copy; {{ currentYear }} Montestack. Todos los derechos reservados.</p>
         <div class="social-links">
-          <a href="https://twitter.com/tu_usuario" target="_blank" rel="noopener noreferrer">Twitter</a>
-          <a href="https://facebook.com/tu_usuario" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a href="https://linkedin.com/in/tu_usuario" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://twitter.com/tu_usuario" target="_blank" rel="noopener noreferrer" ><img src="/icons/insta.png" alt=""></a>
+          <a href="https://facebook.com/tu_usuario" target="_blank" rel="noopener noreferrer"><img src="/icons/fcbk.png" alt=""></a>
+          <a href="https://linkedin.com/in/tu_usuario" target="_blank" rel="noopener noreferrer"><img src="/icons/lnkdn.png" alt=""></a>
         </div>
       </div>
     </footer>

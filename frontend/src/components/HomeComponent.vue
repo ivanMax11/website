@@ -50,150 +50,141 @@
       </section>
 
       <!-- Sección de sobre mí -->
-      <section id="about" class="section about-section">
-        <div class="container">
-          <h2 class="text-center">Sobre Mí</h2>
-          <div class="row">
-            <!-- Información Personal -->
-            <div class="col-md-6">
-              <div class="info-box">
-                <h3>Quién Soy</h3>
-                <div class="about-me-content">
-                  <img src="ivanProf.jpeg" alt="Iván Maximiliano Monte" class="about-me-image" />
-                  <div class="about-me-text">
-                    <p>
-                      Soy Iván Maximiliano Monte, desarrollador de software con experiencia en diversas
-                      tecnologías. Mi enfoque se centra en crear soluciones eficientes y adaptadas a las necesidades
-                      que tenemos actualmente. A
-                      través de
-                      mi marca personal, MonteStack, ofrezco servicios de desarrollo personalizados, siempre
-                      comprometido con
-                      la calidad y la mejora continua. Mi objetivo es ayudar a empresas y emprendedores a llevar sus
-                      ideas a
-                      la realidad
-                      con un enfoque práctico y accesible.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <!-- Habilidades -->
-            <div class="col-md-6">
-              <div class="info-box">
-                <h3>Tecnologias</h3>
-                <div class="skills">
-                  <div class="skill">
-                    <img src="/icons/python.png" alt="Python" class="skill-icon" />
-                    <p>Python</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/csharp96.png" alt="C#" class="skill-icon" />
-                    <p>C#</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/.net.png" alt="C#" class="skill-icon" />
-                    <p>.NET</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/js.png" alt="JavaScript" class="skill-icon" />
-                    <p>JavaScript</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/nuxt.png" alt="JavaScript" class="skill-icon" />
-                    <p>Nuxt</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/vuejs.png" alt="Vue.js" class="skill-icon" />
-                    <p>Vue.js</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/nodejs.png" alt="Node.js" class="skill-icon" />
-                    <p>Node.js</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/express.png" alt="Node.js" class="skill-icon" />
-                    <p>expressjs</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+<section id="about" class="section about-section">
+  <div class="container">
+    <h2 class="text-center">Sobre Mí</h2>
+    <div class="row">
+      <!-- Información Personal -->
+      <div class="col-md-6">
+        <div class="info-box">
+          <h3>Quién Soy</h3>
+          <img src="ivanProf.jpeg" alt="Iván Maximiliano Monte" class="about-me-image" />
+          <div class="about-me-text">
+            <p>
+              Soy Iván Maximiliano Monte, desarrollador de software con experiencia en diversas tecnologías.
+              Mi enfoque se centra en crear soluciones eficientes y adaptadas a las necesidades actuales. A través de
+              mi marca personal, MonteStack, ofrezco servicios de desarrollo personalizados, siempre comprometido con
+              la calidad y la mejora continua. Mi objetivo es ayudar a empresas y emprendedores a llevar sus
+              ideas a la realidad con un enfoque práctico y accesible.
+            </p>
           </div>
+        </div>
+      </div>
 
-          <!-- Proyectos Destacados -->
-          <div class="row">
-            <div class="col-md-4">
-              <div class="project-box">
-                <a href="https://yourproject1.com" target="_blank" class="project-link">
-                  <h4>Sistema para venta de autos CSE Motors</h4>
-                  <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
-                  <img src="/cse340.png" alt="">
-                </a>
-              </div>
-              <div class="project-box">
-                <a href="" target="_blank" class="project-link">
-                  <h4>Inventario Management System</h4>
-                  <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
-
-                </a>
-              </div>
+      <!-- Habilidades -->
+      <div class="col-md-6">
+        <div class="info-box">
+          <h3>Tecnologías</h3>
+          <div class="skills">
+            <div class="skill">
+              <img src="/icons/python.png" alt="Python" class="skill-icon" />
+              <p>Python</p>
             </div>
-            <div class="col-md-4">
-              <div class="project-box">
-                <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
-                  <h4>NASA API Explorer</h4>
-                  <p>Aplicacion web con API de la NASA para explorar contenido y descubrir información asombrosa.</p>
-                  <img src="/nasaApp.png" alt="">
-                </a>
-              </div>
+            <div class="skill">
+              <img src="/icons/csharp96.png" alt="C#" class="skill-icon" />
+              <p>C#</p>
             </div>
-            <div class="col-md-4">
-              <div class="project-box">
-                <a href="https://yourproject3.com" target="_blank" class="project-link">
-                  <h4>Veterinary Clinics App</h4>
-                  <p>Aplicación para recopilar información sobre clínicas veterinarias.</p>
-                </a>
-              </div>
-
+            <div class="skill">
+              <img src="/icons/.net.png" alt=".NET" class="skill-icon" />
+              <p>.NET</p>
+            </div>
+            <div class="skill">
+              <img src="/icons/js.png" alt="JavaScript" class="skill-icon" />
+              <p>JavaScript</p>
+            </div>
+            <div class="skill">
+              <img src="/icons/nuxt.png" alt="Nuxt" class="skill-icon" />
+              <p>Nuxt</p>
+            </div>
+            <div class="skill">
+              <img src="/icons/vuejs.png" alt="Vue.js" class="skill-icon" />
+              <p>Vue.js</p>
+            </div>
+            <div class="skill">
+              <img src="/icons/nodejs.png" alt="Node.js" class="skill-icon" />
+              <p>Node.js</p>
+            </div>
+            <div class="skill">
+              <img src="/icons/express.png" alt="Express.js" class="skill-icon" />
+              <p>Express.js</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
 
-      <!-- Sección de contacto -->
-      <!-- Sección de contacto -->
-<section id="contact" class="section contact-section">
-  <div class="container">
-    <h2 class="text-center">Contacto</h2>
-    <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
-    <form @submit.prevent="submitForm" class="contact-form">
-      <div class="mb-3">
-        <label for="name" class="form-label">Nombre</label>
-        <input type="text" v-model="form.name" class="form-control" id="name" required>
+    <!-- Proyectos Destacados -->
+    <div class="row">
+      <h3 class="text-center">Proyectos Destacados</h3>
+      <div class="col-md-4">
+        <div class="project-box">
+          <a href="https://yourproject1.com" target="_blank" class="project-link">
+            <h4>Sistema para venta de autos CSE Motors</h4>
+            <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
+            <img src="/cse340.png" alt="CSE Motors">
+          </a>
+        </div>
+        <div class="project-box">
+          <a href="" target="_blank" class="project-link">
+            <h4>Inventario Management System</h4>
+            <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
+          </a>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">Email</label>
-        <input type="email" v-model="form.email" class="form-control" id="email" required>
+      <div class="col-md-4">
+        <div class="project-box">
+          <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
+            <h4>NASA API Explorer</h4>
+            <p>Aplicación web con API de la NASA para explorar contenido y descubrir información asombrosa.</p>
+            <img src="/nasaApp.png" alt="NASA API Explorer">
+          </a>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="phone" class="form-label">Teléfono</label>
-        <input type="text" v-model="form.phone" class="form-control" id="phone">
+      <div class="col-md-4">
+        <div class="project-box">
+          <a href="https://yourproject3.com" target="_blank" class="project-link">
+            <h4>Veterinary Clinics App</h4>
+            <p>Aplicación para recopilar información sobre clínicas veterinarias.</p>
+          </a>
+        </div>
       </div>
-      
-      <div class="mb-3">
-        <label for="message" class="form-label">Mensaje</label>
-        <textarea v-model="form.message" class="form-control" id="message" rows="3" required></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-    <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
-      ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
     </div>
   </div>
 </section>
 
-    </div>
+
+    <!-- Sección de contacto -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="text-center">Contacto</h2>
+        <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
+        <form @submit.prevent="submitForm" class="contact-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" v-model="form.name" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" v-model="form.email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Teléfono</label>
+            <input type="text" v-model="form.phone" class="form-control" id="phone">
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea v-model="form.message" class="form-control" id="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
+          ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
+        </div>
+      </div>
+    </section>
+
+  </div>
   </div>
 </template>
 
@@ -212,40 +203,40 @@ export default {
     const successMessage = ref(false);
 
     const submitForm = async () => {
-  try {
-    console.log('Enviando formulario...');
-    // Defining apiUrl correctly from the enviroments
-    const apiUrl = process.env.VUE_APP_API_URL;
+      try {
+        console.log('Enviando formulario...');
+        // Defining apiUrl correctly from the enviroments
+        const apiUrl = process.env.VUE_APP_API_URL;
 
-    
-    const response = await axios.post(`${apiUrl}/api/contacts`, {
-      name: form.value.name,
-      email: form.value.email,
-      message: form.value.message,
-      phone: form.value.phone, // Agregar el campo de teléfono
-      
-    });
 
-    console.log('Respuesta del servidor:', response);
+        const response = await axios.post(`${apiUrl}/api/contacts`, {
+          name: form.value.name,
+          email: form.value.email,
+          message: form.value.message,
+          phone: form.value.phone, // Agregar el campo de teléfono
 
-    if (response.status === 201) {
-      successMessage.value = true;
-      form.value.name = '';
-      form.value.email = '';
-      form.value.message = '';
-      form.value.phone = ''; // Limpiar el campo de teléfono
-      
+        });
 
-      // Scroll hacia la parte superior o hacia una sección específica
-      setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }, 3000);
-    }
-  } catch (error) {
-    console.error('Error al enviar el formulario:', error);
-    alert('Hubo un error al enviar tu mensaje, por favor intenta más tarde.');
-  }
-};
+        console.log('Respuesta del servidor:', response);
+
+        if (response.status === 201) {
+          successMessage.value = true;
+          form.value.name = '';
+          form.value.email = '';
+          form.value.message = '';
+          form.value.phone = ''; // Limpiar el campo de teléfono
+
+
+          // Scroll hacia la parte superior o hacia una sección específica
+          setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }, 3000);
+        }
+      } catch (error) {
+        console.error('Error al enviar el formulario:', error);
+        alert('Hubo un error al enviar tu mensaje, por favor intenta más tarde.');
+      }
+    };
 
 
     return { form, successMessage, submitForm };
@@ -287,7 +278,7 @@ export default {
   font-size: 1.25rem;
   margin-bottom: 30px;
   color: #e0e0e0;
-  
+
 }
 
 .btn-primary {
@@ -322,26 +313,31 @@ export default {
 
 .contact-section {
   background-color: #ffffff;
-  padding: 80px 20px;
+  padding: 60px 0; /* Espaciado general */
   /* Aumentado el padding superior e inferior */
 }
 
 .about-me-content {
   display: flex;
-  align-items: flex-start; /* Alinea la imagen y el texto al principio */
+  flex-wrap: wrap; /* Permite que el texto fluya alrededor de la imagen */
+  align-items: flex-start; /* Alinea la imagen y el texto al inicio */
+  text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .about-me-image {
-  border-radius: 50%;
-  width: 180px; /* Ajusta el tamaño de la imagen */
-  height: 120px;
-  margin-right: 20px; /* Espacio entre la imagen y el texto */
-  object-fit: cover; /* Asegura que la imagen se ajuste bien en el contenedor */
+  float: left; /* Permite que el texto fluya alrededor de la imagen */
+  max-width: 100%; /* Asegura que la imagen no se exceda del contenedor */
+  width: 160px; /* Ancho fijo de la imagen para pantallas grandes */
+  height: 235px; /* Mantiene la proporción de la imagen */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-right: 15px; /* Espaciado a la derecha de la imagen */
+  margin-bottom: 15px; /* Espaciado debajo de la imagen */
 }
 
-.about-me-text p {
-  margin: 0; /* Elimina el margen por defecto del párrafo */
+.about-me-text {
+  flex: 1; /* Permite que el texto ocupe el espacio restante */
 }
+
 
 
 .service-card {
@@ -493,6 +489,23 @@ export default {
     /* Aumentado el padding superior e inferior */
   }
 
+
+  .about-me-content {
+    flex-direction: row; /* Cambia a fila en pantallas grandes */
+    align-items: flex-start; /* Alinea la imagen y el texto en la parte superior */
+  }
+
+  .about-me-image {
+    width: 150px; /* Tamaño fijo para pantallas grandes */
+    height: 220px; /* Tamaño fijo para pantallas grandes */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+  }
+  /*
+  .about-me-image {
+    width: 100%; 
+    max-width: none; 
+  } */
+  
   .info-box {
     margin-bottom: 20px;
     /* Ajustado el margen inferior */
