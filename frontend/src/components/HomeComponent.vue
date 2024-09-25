@@ -118,7 +118,7 @@
       <h3 class="text-center">Proyectos Destacados</h3>
       <div class="col-md-4">
         <div class="project-box">
-          <a href="https://yourproject1.com" target="_blank" class="project-link">
+          <a href="https://newrepo-oaw4.onrender.com/" target="_blank" class="project-link">
             <h4>Sistema para venta de autos CSE Motors</h4>
             <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
             <img src="/cse340.png" alt="CSE Motors">
