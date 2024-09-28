@@ -5,7 +5,7 @@
       <section id="home" class="section home-section text-center">
         <div class="hero-content">
           <h1 class="display-3">Bienvenido a MonteStack</h1>
-          <p class="lead">Tu solución integral para desarrollo de software. Con años de experiencia, ofrecemos servicios
+          <p class="lead">Tu solución integral para desarrollo de software. Ofrecemos servicios
             personalizados para ayudarte a alcanzar tus objetivos tecnológicos.</p>
           <a href="#services" class="btn btn-primary btn-lg">Descubre Nuestros Servicios</a>
         </div>
@@ -282,7 +282,7 @@ export default {
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: #c92b48;
   border-color: #007bff;
   padding: 12px 24px;
   font-size: 1.1rem;
