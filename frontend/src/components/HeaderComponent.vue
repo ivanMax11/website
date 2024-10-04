@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand d-flex align-items-center" href="#home">
       MonteStack
-      <img class="logo ms-2" src="logo.png" alt="Logo" />
+      <img class="logo ms-2" src="icons/logoMonte.png" alt="Logo" />
     </a>
     <button
       class="navbar-toggler"
@@ -52,7 +52,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: #3995ff;
+  background-color: #f8f9fa;
   padding: 10px 20px;
 }
 
@@ -68,7 +68,7 @@ export default {
   width: 180px;
   height: auto;
   margin-left: 10px;
-  transform: translateY(20px);
+  transform: translateY(0px);
 }
 
 .navbar-nav .nav-link {

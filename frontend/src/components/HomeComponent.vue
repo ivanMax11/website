@@ -50,141 +50,181 @@
       </section>
 
       <!-- Sección de sobre mí -->
-<section id="about" class="section about-section">
-  <div class="container">
-    <h2 class="text-center">Sobre Mí</h2>
-    <div class="row">
-      <!-- Información Personal -->
-      <div class="col-md-6">
-        <div class="info-box">
-          <h3>Quién Soy</h3>
-          <img src="ivanProf.jpeg" alt="Iván Maximiliano Monte" class="about-me-image" />
-          <div class="about-me-text">
-            <p>
-              Soy Iván Maximiliano Monte, desarrollador de software con experiencia en diversas tecnologías.
-              Mi enfoque se centra en crear soluciones eficientes y adaptadas a las necesidades actuales. A través de
-              mi marca personal, MonteStack, ofrezco servicios de desarrollo personalizados, siempre comprometido con
-              la calidad y la mejora continua. Mi objetivo es ayudar a empresas y emprendedores a llevar sus
-              ideas a la realidad con un enfoque práctico y accesible.
-            </p>
-          </div>
-        </div>
-      </div>
+      <section id="about" class="section about-section">
+        <div class="container">
+          <h2 class="text-center">Sobre Mí</h2>
+          <div class="row">
+            <!-- Información Personal -->
+            <div class="col-md-6">
+              <div class="info-box">
+                <h3>Quién Soy</h3>
+                <img src="ivanProf.jpeg" alt="Iván Maximiliano Monte" class="about-me-image" />
+                <div class="about-me-text">
+                  <p>
+                    Soy Iván Maximiliano Monte, desarrollador de software con experiencia en diversas tecnologías.
+                    Mi enfoque se centra en crear soluciones eficientes y adaptadas a las necesidades actuales. A través
+                    de
+                    mi marca personal, MonteStack, ofrezco servicios de desarrollo personalizados, siempre comprometido
+                    con
+                    la calidad y la mejora continua. Mi objetivo es ayudar a empresas y emprendedores a llevar sus
+                    ideas a la realidad con un enfoque práctico y accesible.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-      <!-- Habilidades -->
-      <div class="col-md-6">
-        <div class="info-box">
-          <h3>Tecnologías</h3>
-          <div class="skills">
-            <div class="skill">
-              <img src="/icons/python.png" alt="Python" class="skill-icon" />
-              <p>Python</p>
+            <!-- Habilidades -->
+            <div class="col-md-6">
+              <div class="info-box">
+                <h3>Tecnologías</h3>
+                <div class="skills">
+                  <div class="skill">
+                    <img src="/icons/python.png" alt="Python" class="skill-icon" />
+                    <p>Python</p>
+                  </div>
+                  <div class="skill">
+                    <img src="/icons/csharp96.png" alt="C#" class="skill-icon" />
+                    <p>C#</p>
+                  </div>
+                  <div class="skill">
+                    <img src="/icons/.net.png" alt=".NET" class="skill-icon" />
+                    <p>.NET</p>
+                  </div>
+                  <div class="skill">
+                    <img src="/icons/js.png" alt="JavaScript" class="skill-icon" />
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="skill">
+                    <img src="/icons/nuxt.png" alt="Nuxt" class="skill-icon" />
+                    <p>Nuxt</p>
+                  </div>
+                  <div class="skill">
+                    <img src="/icons/vuejs.png" alt="Vue.js" class="skill-icon" />
+                    <p>Vue.js</p>
+                  </div>
+                  <div class="skill">
+                    <img src="/icons/nodejs.png" alt="Node.js" class="skill-icon" />
+                    <p>Node.js</p>
+                  </div>
+                  <div class="skill">
+                    <img src="/icons/express.png" alt="Express.js" class="skill-icon" />
+                    <p>Express.js</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="skill">
-              <img src="/icons/csharp96.png" alt="C#" class="skill-icon" />
-              <p>C#</p>
+          </div>
+
+          <!-- Proyectos Destacados -->
+          <div class="row">
+            <h3 class="text-center">Proyectos Destacados</h3>
+            <div class="col-md-4">
+              <div class="project-box">
+                <a href="https://newrepo-oaw4.onrender.com/" target="_blank" class="project-link">
+                  <h4>Sistema para venta de autos CSE Motors</h4>
+                  <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
+                  <img src="/cse340.png" alt="CSE Motors">
+                </a>
+              </div>
+              <div class="project-box">
+                <a href="" target="_blank" class="project-link">
+                  <h4>Inventario Management System</h4>
+                  <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
+                </a>
+              </div>
             </div>
-            <div class="skill">
-              <img src="/icons/.net.png" alt=".NET" class="skill-icon" />
-              <p>.NET</p>
+            <div class="col-md-4">
+              <div class="project-box">
+                <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
+                  <h4>NASA API Explorer</h4>
+                  <p>Aplicación web con API de la NASA para explorar contenido y descubrir información asombrosa.</p>
+                  <img src="/nasaApp.png" alt="NASA API Explorer">
+                </a>
+              </div>
             </div>
-            <div class="skill">
-              <img src="/icons/js.png" alt="JavaScript" class="skill-icon" />
-              <p>JavaScript</p>
-            </div>
-            <div class="skill">
-              <img src="/icons/nuxt.png" alt="Nuxt" class="skill-icon" />
-              <p>Nuxt</p>
-            </div>
-            <div class="skill">
-              <img src="/icons/vuejs.png" alt="Vue.js" class="skill-icon" />
-              <p>Vue.js</p>
-            </div>
-            <div class="skill">
-              <img src="/icons/nodejs.png" alt="Node.js" class="skill-icon" />
-              <p>Node.js</p>
-            </div>
-            <div class="skill">
-              <img src="/icons/express.png" alt="Express.js" class="skill-icon" />
-              <p>Express.js</p>
+            <div class="col-md-4">
+              <div class="project-box">
+                <a href="https://yourproject3.com" target="_blank" class="project-link">
+                  <h4>Veterinary Clinics App</h4>
+                  <p>Aplicación para recopilar información sobre clínicas veterinarias.</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+
+
+      <!-- Sección de contacto -->
+      <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="text-center">Contacto</h2>
+      <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
+      <form @submit.prevent="submitForm" class="contact-form" novalidate>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input 
+            type="text" 
+            v-model="form.name" 
+            class="form-control" 
+            id="name" 
+            required
+            :class="{ 'is-invalid': formErrors.name }"
+          >
+          <div v-if="formErrors.name" class="invalid-feedback">
+            {{ formErrors.name }}
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input 
+            type="email" 
+            v-model="form.email" 
+            class="form-control" 
+            id="email" 
+            required
+            :class="{ 'is-invalid': formErrors.email }"
+          >
+          <div v-if="formErrors.email" class="invalid-feedback">
+            {{ formErrors.email }}
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Teléfono</label>
+          <input 
+            type="text" 
+            v-model="form.phone" 
+            class="form-control" 
+            id="phone"
+            :class="{ 'is-invalid': formErrors.phone }"
+          >
+          <div v-if="formErrors.phone" class="invalid-feedback">
+            {{ formErrors.phone }}
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea 
+            v-model="form.message" 
+            class="form-control" 
+            id="message" 
+            rows="3" 
+            required
+            :class="{ 'is-invalid': formErrors.message }"
+          ></textarea>
+          <div v-if="formErrors.message" class="invalid-feedback">
+            {{ formErrors.message }}
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+      <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
+        ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
       </div>
     </div>
+  </section>
 
-    <!-- Proyectos Destacados -->
-    <div class="row">
-      <h3 class="text-center">Proyectos Destacados</h3>
-      <div class="col-md-4">
-        <div class="project-box">
-          <a href="https://newrepo-oaw4.onrender.com/" target="_blank" class="project-link">
-            <h4>Sistema para venta de autos CSE Motors</h4>
-            <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
-            <img src="/cse340.png" alt="CSE Motors">
-          </a>
-        </div>
-        <div class="project-box">
-          <a href="" target="_blank" class="project-link">
-            <h4>Inventario Management System</h4>
-            <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="project-box">
-          <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
-            <h4>NASA API Explorer</h4>
-            <p>Aplicación web con API de la NASA para explorar contenido y descubrir información asombrosa.</p>
-            <img src="/nasaApp.png" alt="NASA API Explorer">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="project-box">
-          <a href="https://yourproject3.com" target="_blank" class="project-link">
-            <h4>Veterinary Clinics App</h4>
-            <p>Aplicación para recopilar información sobre clínicas veterinarias.</p>
-          </a>
-        </div>
-      </div>
     </div>
-  </div>
-</section>
-
-
-    <!-- Sección de contacto -->
-    <section id="contact" class="section contact-section">
-      <div class="container">
-        <h2 class="text-center">Contacto</h2>
-        <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
-        <form @submit.prevent="submitForm" class="contact-form">
-          <div class="mb-3">
-            <label for="name" class="form-label">Nombre</label>
-            <input type="text" v-model="form.name" class="form-control" id="name" required>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" v-model="form.email" class="form-control" id="email" required>
-          </div>
-          <div class="mb-3">
-            <label for="phone" class="form-label">Teléfono</label>
-            <input type="text" v-model="form.phone" class="form-control" id="phone">
-          </div>
-
-          <div class="mb-3">
-            <label for="message" class="form-label">Mensaje</label>
-            <textarea v-model="form.message" class="form-control" id="message" rows="3" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-        <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
-          ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
-        </div>
-      </div>
-    </section>
-
-  </div>
   </div>
 </template>
 
@@ -194,40 +234,60 @@ import axios from 'axios';
 
 export default {
   setup() {
-
     const form = ref({
       name: '',
       email: '',
+      phone: '',
       message: ''
     });
+    const formErrors = ref({});
     const successMessage = ref(false);
 
+    const validateForm = () => {
+      const errors = {};
+      if (!form.value.name || form.value.name.length < 3) {
+        errors.name = 'El nombre debe tener al menos 3 caracteres.';
+      }
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!form.value.email || !emailPattern.test(form.value.email)) {
+        errors.email = 'Debes ingresar un email válido.';
+      }
+      const phonePattern = /^[0-9]{10}$/; // Puedes ajustar la validación según el formato local
+      if (form.value.phone && !phonePattern.test(form.value.phone)) {
+        errors.phone = 'El teléfono debe contener 10 dígitos.';
+      }
+      if (!form.value.message || form.value.message.length < 10) {
+        errors.message = 'El mensaje debe tener al menos 10 caracteres.';
+      }
+      return errors;
+    };
+
     const submitForm = async () => {
+      const errors = validateForm();
+      if (Object.keys(errors).length > 0) {
+        formErrors.value = errors;
+        return;
+      }
+
       try {
         console.log('Enviando formulario...');
-        // Defining apiUrl correctly from the enviroments
         const apiUrl = process.env.VUE_APP_API_URL;
-
 
         const response = await axios.post(`${apiUrl}/api/contacts`, {
           name: form.value.name,
           email: form.value.email,
+          phone: form.value.phone,
           message: form.value.message,
-          phone: form.value.phone, // Agregar el campo de teléfono
-
         });
-
-        console.log('Respuesta del servidor:', response);
 
         if (response.status === 201) {
           successMessage.value = true;
           form.value.name = '';
           form.value.email = '';
+          form.value.phone = '';
           form.value.message = '';
-          form.value.phone = ''; // Limpiar el campo de teléfono
+          formErrors.value = {};
 
-
-          // Scroll hacia la parte superior o hacia una sección específica
           setTimeout(() => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }, 3000);
@@ -238,8 +298,7 @@ export default {
       }
     };
 
-
-    return { form, successMessage, submitForm };
+    return { form, formErrors, successMessage, submitForm };
   }
 };
 </script>
@@ -313,29 +372,41 @@ export default {
 
 .contact-section {
   background-color: #ffffff;
-  padding: 60px 0; /* Espaciado general */
+  padding: 60px 0;
+  /* Espaciado general */
   /* Aumentado el padding superior e inferior */
 }
 
 .about-me-content {
   display: flex;
-  flex-wrap: wrap; /* Permite que el texto fluya alrededor de la imagen */
-  align-items: flex-start; /* Alinea la imagen y el texto al inicio */
-  text-align: left; /* Alinea el texto a la izquierda */
+  flex-wrap: wrap;
+  /* Permite que el texto fluya alrededor de la imagen */
+  align-items: flex-start;
+  /* Alinea la imagen y el texto al inicio */
+  text-align: left;
+  /* Alinea el texto a la izquierda */
 }
 
 .about-me-image {
-  float: left; /* Permite que el texto fluya alrededor de la imagen */
-  max-width: 100%; /* Asegura que la imagen no se exceda del contenedor */
-  width: 160px; /* Ancho fijo de la imagen para pantallas grandes */
-  height: 235px; /* Mantiene la proporción de la imagen */
-  border-radius: 8px; /* Bordes redondeados */
-  margin-right: 15px; /* Espaciado a la derecha de la imagen */
-  margin-bottom: 15px; /* Espaciado debajo de la imagen */
+  float: left;
+  /* Permite que el texto fluya alrededor de la imagen */
+  max-width: 100%;
+  /* Asegura que la imagen no se exceda del contenedor */
+  width: 160px;
+  /* Ancho fijo de la imagen para pantallas grandes */
+  height: 235px;
+  /* Mantiene la proporción de la imagen */
+  border-radius: 8px;
+  /* Bordes redondeados */
+  margin-right: 15px;
+  /* Espaciado a la derecha de la imagen */
+  margin-bottom: 15px;
+  /* Espaciado debajo de la imagen */
 }
 
 .about-me-text {
-  flex: 1; /* Permite que el texto ocupe el espacio restante */
+  flex: 1;
+  /* Permite que el texto ocupe el espacio restante */
 }
 
 
@@ -491,21 +562,27 @@ export default {
 
 
   .about-me-content {
-    flex-direction: row; /* Cambia a fila en pantallas grandes */
-    align-items: flex-start; /* Alinea la imagen y el texto en la parte superior */
+    flex-direction: row;
+    /* Cambia a fila en pantallas grandes */
+    align-items: flex-start;
+    /* Alinea la imagen y el texto en la parte superior */
   }
 
   .about-me-image {
-    width: 150px; /* Tamaño fijo para pantallas grandes */
-    height: 220px; /* Tamaño fijo para pantallas grandes */
-    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    width: 150px;
+    /* Tamaño fijo para pantallas grandes */
+    height: 220px;
+    /* Tamaño fijo para pantallas grandes */
+    margin-right: 20px;
+    /* Espacio entre la imagen y el texto */
   }
+
   /*
   .about-me-image {
     width: 100%; 
     max-width: none; 
   } */
-  
+
   .info-box {
     margin-bottom: 20px;
     /* Ajustado el margen inferior */
