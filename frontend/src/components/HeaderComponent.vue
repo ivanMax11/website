@@ -52,31 +52,42 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: #f8f9fa;
+  background-color: #15435a;
   padding: 10px 20px;
 }
 
 .navbar-brand {
-  color: #0e0d0d;
+  color: white;
+  text-decoration: none;
   display: flex;
   align-items: center;
   font-size: 1.5rem;
   padding: 0;
 }
 
+.navbar-brand:hover {
+  color: #e7cd37;
+}
+
 .navbar-brand .logo {
   width: 180px;
   height: auto;
   margin-left: 10px;
-  transform: translateY(0px);
+  transform: translateY(-15px);
 }
 
 .navbar-nav .nav-link {
-  color: #0c0c0c;
+  color: white;
   padding: 8px 15px;
 }
 
+.nav-link:hover {
+  color: #e7cd37;
+}
+
 .navbar-toggler {
+  background-color: #e7cd37;
+  
   border: none;
 }
 

@@ -304,6 +304,7 @@ export default {
 </script>
 
 <style scoped>
+@charset 'UTF-8';
 .home-section {
   background-image: url('/public/icons/desarrollo-web.png');
   background-size: cover;
@@ -359,7 +360,7 @@ export default {
 
 .services-section {
   background-color: #ffffff;
-  border-top: 4px solid #007bff;
+  border-top: 4px solid #e7cd37;
   padding: 80px 20px;
   /* Aumentado el padding superior e inferior */
 }
@@ -370,12 +371,6 @@ export default {
   /* Aumentado el padding superior e inferior */
 }
 
-.contact-section {
-  background-color: #ffffff;
-  padding: 60px 0;
-  /* Espaciado general */
-  /* Aumentado el padding superior e inferior */
-}
 
 .about-me-content {
   display: flex;
