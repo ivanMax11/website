@@ -66,7 +66,7 @@ export default {
 }
 
 .navbar-brand:hover {
-  color: #e7cd37;
+  color: #e1b166;
 }
 
 .navbar-brand .logo {
@@ -82,11 +82,11 @@ export default {
 }
 
 .nav-link:hover {
-  color: #e7cd37;
+  color: #e1b166;
 }
 
 .navbar-toggler {
-  background-color: #e7cd37;
+  background-color: #e1b166;
   
   border: none;
 }

@@ -342,8 +342,8 @@ export default {
 }
 
 .btn-primary {
-  background-color: #c92b48;
-  border-color: #007bff;
+  background-color: #15435a;
+  border-color: #e1b166;
   padding: 12px 24px;
   font-size: 1.1rem;
   border-radius: 8px;
@@ -352,7 +352,7 @@ export default {
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: #e1b166;
   transform: translateY(-3px);
   box-shadow: 0px 6px 20px rgba(0, 86, 179, 0.6);
 }
@@ -360,7 +360,7 @@ export default {
 
 .services-section {
   background-color: #ffffff;
-  border-top: 4px solid #e7cd37;
+  border-top: 4px solid #e1b166;
   padding: 80px 20px;
   /* Aumentado el padding superior e inferior */
 }
