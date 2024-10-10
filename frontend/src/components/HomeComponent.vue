@@ -123,16 +123,16 @@
                 <a href="https://newrepo-oaw4.onrender.com/" target="_blank" class="project-link">
                   <h4>Sistema para venta de autos CSE Motors</h4>
                   <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
-                  <img src="/cse340.png" alt="CSE Motors">
+                  <img src="/cse340motors.png" alt="CSE Motors">
                 </a>
               </div>
-              <div class="project-box">
+         <!--      <div class="project-box">
                 <a href="" target="_blank" class="project-link">
                   <h4>Inventario Management System</h4>
                   <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
                 </a>
               </div>
-            </div>
+       -->  </div>
             <div class="col-md-4">
               <div class="project-box">
                 <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
@@ -144,13 +144,22 @@
             </div>
             <div class="col-md-4">
               <div class="project-box">
+                <a href="https://mevn-taskmanager-1.onrender.com/" target="_blank" class="project-link">
+                  <h4>MEVN Task App</h4>
+                  <p>Aplicación para gestionar tareas con usuarios unificados.</p>
+                  <img src="/taskmanager.png" alt="Task Manager img">
+                </a>
+              </div>
+              </div>
+    <!--    <div class="col-md-4">
+              <div class="project-box">
                 <a href="https://yourproject3.com" target="_blank" class="project-link">
                   <h4>Veterinary Clinics App</h4>
                   <p>Aplicación para recopilar información sobre clínicas veterinarias.</p>
                 </a>
               </div>
-            </div>
-          </div>
+              </div>
+   -->       </div>
         </div>
       </section>
 
@@ -502,9 +511,9 @@ export default {
   /* Hace que la imagen se comporte como un bloque */
   margin: 0 auto;
   /* Centra la imagen horizontalmente */
-  max-width: 100%;
+  width: 100%;
   /* Ajusta el tamaño de la imagen dentro de su contenedor */
-  height: 150px;
+  height: 225px;
   /* Define una alura fija para que todas las imagenes sean del mismo tamaño */
   object-fit: cover;
   /* Asegura que la imagen mantenga su proporcion y se recorte si es necesario */
