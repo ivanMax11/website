@@ -77,39 +77,75 @@
             <div class="col-md-6">
               <div class="info-box">
                 <h3>Tecnologías</h3>
-                <div class="skills">
-                  <div class="skill">
-                    <img src="/icons/python.png" alt="Python" class="skill-icon" />
-                    <p>Python</p>
+                <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                  <div class="carousel-inner">
+                    <!-- Lenguajes de Programación -->
+                    <div class="carousel-item active">
+                      <div class="skills d-flex justify-content-around">
+                        <div class="skill">
+                          <img src="/icons/python.png" alt="Python" class="skill-icon" />
+                          <p>Python</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/csharp96.png" alt="C#" class="skill-icon" />
+                          <p>C#</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/js.png" alt="JavaScript" class="skill-icon" />
+                          <p>JavaScript</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Frameworks -->
+                    <div class="carousel-item">
+                      <div class="skills d-flex justify-content-around">
+                        <div class="skill">
+                          <img src="/icons/nuxt.png" alt="Nuxt" class="skill-icon" />
+                          <p>Nuxt</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/vuejs.png" alt="Vue.js" class="skill-icon" />
+                          <p>Vue.js</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/nodejs.png" alt="Node.js" class="skill-icon" />
+                          <p>Node.js</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/express.png" alt="Express.js" class="skill-icon" />
+                          <p>Express.js</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Bases de Datos -->
+                    <div class="carousel-item">
+                      <div class="skills d-flex justify-content-around">
+                        <div class="skill">
+                          <img src="/icons/mysql.png" alt="MySQL" class="skill-icon" />
+                          <p>MySQL</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/mongo.png" alt="MongoDB" class="skill-icon" />
+                          <p>MongoDB</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/postgre.png" alt="PostgreSQL" class="skill-icon" />
+                          <p>PostgreSQL</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="skill">
-                    <img src="/icons/csharp96.png" alt="C#" class="skill-icon" />
-                    <p>C#</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/.net.png" alt=".NET" class="skill-icon" />
-                    <p>.NET</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/js.png" alt="JavaScript" class="skill-icon" />
-                    <p>JavaScript</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/nuxt.png" alt="Nuxt" class="skill-icon" />
-                    <p>Nuxt</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/vuejs.png" alt="Vue.js" class="skill-icon" />
-                    <p>Vue.js</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/nodejs.png" alt="Node.js" class="skill-icon" />
-                    <p>Node.js</p>
-                  </div>
-                  <div class="skill">
-                    <img src="/icons/express.png" alt="Express.js" class="skill-icon" />
-                    <p>Express.js</p>
-                  </div>
+                  <!-- Controles de navegación del carrusel -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#skillsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#skillsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -126,13 +162,14 @@
                   <img src="/cse340motors.png" alt="CSE Motors">
                 </a>
               </div>
-         <!--      <div class="project-box">
+              <!--      <div class="project-box">
                 <a href="" target="_blank" class="project-link">
                   <h4>Inventario Management System</h4>
                   <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
                 </a>
               </div>
-       -->  </div>
+       -->
+            </div>
             <div class="col-md-4">
               <div class="project-box">
                 <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
@@ -150,8 +187,8 @@
                   <img src="/taskmanager.png" alt="Task Manager img">
                 </a>
               </div>
-              </div>
-    <!--    <div class="col-md-4">
+            </div>
+            <!--    <div class="col-md-4">
               <div class="project-box">
                 <a href="https://yourproject3.com" target="_blank" class="project-link">
                   <h4>Veterinary Clinics App</h4>
@@ -159,79 +196,57 @@
                 </a>
               </div>
               </div>
-   -->       </div>
+   -->
+          </div>
         </div>
       </section>
 
 
       <!-- Sección de contacto -->
       <section id="contact" class="section contact-section">
-    <div class="container">
-      <h2 class="text-center">Contacto</h2>
-      <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
-      <form @submit.prevent="submitForm" class="contact-form" novalidate>
-        <div class="mb-3">
-          <label for="name" class="form-label">Nombre</label>
-          <input 
-            type="text" 
-            v-model="form.name" 
-            class="form-control" 
-            id="name" 
-            required
-            :class="{ 'is-invalid': formErrors.name }"
-          >
-          <div v-if="formErrors.name" class="invalid-feedback">
-            {{ formErrors.name }}
+        <div class="container">
+          <h2 class="text-center">Contacto</h2>
+          <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
+          <form @submit.prevent="submitForm" class="contact-form" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" v-model="form.name" class="form-control" id="name" required
+                :class="{ 'is-invalid': formErrors.name }">
+              <div v-if="formErrors.name" class="invalid-feedback">
+                {{ formErrors.name }}
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" v-model="form.email" class="form-control" id="email" required
+                :class="{ 'is-invalid': formErrors.email }">
+              <div v-if="formErrors.email" class="invalid-feedback">
+                {{ formErrors.email }}
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Teléfono</label>
+              <input type="text" v-model="form.phone" class="form-control" id="phone"
+                :class="{ 'is-invalid': formErrors.phone }">
+              <div v-if="formErrors.phone" class="invalid-feedback">
+                {{ formErrors.phone }}
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea v-model="form.message" class="form-control" id="message" rows="3" required
+                :class="{ 'is-invalid': formErrors.message }"></textarea>
+              <div v-if="formErrors.message" class="invalid-feedback">
+                {{ formErrors.message }}
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+          <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
+            ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
           </div>
         </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input 
-            type="email" 
-            v-model="form.email" 
-            class="form-control" 
-            id="email" 
-            required
-            :class="{ 'is-invalid': formErrors.email }"
-          >
-          <div v-if="formErrors.email" class="invalid-feedback">
-            {{ formErrors.email }}
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="phone" class="form-label">Teléfono</label>
-          <input 
-            type="text" 
-            v-model="form.phone" 
-            class="form-control" 
-            id="phone"
-            :class="{ 'is-invalid': formErrors.phone }"
-          >
-          <div v-if="formErrors.phone" class="invalid-feedback">
-            {{ formErrors.phone }}
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Mensaje</label>
-          <textarea 
-            v-model="form.message" 
-            class="form-control" 
-            id="message" 
-            rows="3" 
-            required
-            :class="{ 'is-invalid': formErrors.message }"
-          ></textarea>
-          <div v-if="formErrors.message" class="invalid-feedback">
-            {{ formErrors.message }}
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
-      <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
-        ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
-      </div>
-    </div>
-  </section>
+      </section>
 
     </div>
   </div>
@@ -314,6 +329,7 @@ export default {
 
 <style scoped>
 @charset 'UTF-8';
+
 .home-section {
   background-image: url('/public/icons/desarrollo-web.png');
   background-size: cover;
@@ -471,18 +487,47 @@ export default {
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  /* Alineación centrada */
+  gap: 20px;
+  /* Espacio entre las habilidades */
+  margin-top: 20px;
 }
 
 .skill {
   text-align: center;
   margin: 10px;
-  flex: 1;
+  flex: 1 0 150px;
+  /* Mínimo de 150px para que las tarjetas no sean muy pequeñas */
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .skill-icon {
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover .skill-icon {
+  transform: scale(1.1);
+}
+
+h4 {
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  color: #343a40;
 }
 
 .projects {
@@ -593,7 +638,7 @@ export default {
   }
 
   .skills {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .skill {
