@@ -15,6 +15,7 @@ const createContact = async (req, res) => {
         const newContact = await Contact.create({ name, email, message, phone });
         res.status(201).json(newContact);
     } catch (error) {
+        console.error('Error al crear el contacto:', error); // Log para depuración
         res.status(500).json({ error: 'Error al crear el contacto.' });
     }
 };
@@ -25,6 +26,7 @@ const getAllContacts = async (req, res) => {
         const contacts = await Contact.findAll();
         res.status(200).json(contacts);
     } catch (error) {
+        console.error('Error al obtener los contactos:', error); // Log para depuración
         res.status(500).json({ error: 'Error al obtener los contactos.' });
     }
 };

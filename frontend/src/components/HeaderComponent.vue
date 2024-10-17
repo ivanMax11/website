@@ -70,10 +70,10 @@ export default {
 }
 
 .navbar-brand .logo {
-  width: 180px;
+  width: 150px;
   height: auto;
   margin-left: 10px;
-  transform: translateY(-15px);
+  transform: translateY(-12px);
 }
 
 .navbar-nav .nav-link {

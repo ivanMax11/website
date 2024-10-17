@@ -60,13 +60,9 @@
                 <img src="ivanProf.jpeg" alt="Iván Maximiliano Monte" class="about-me-image" />
                 <div class="about-me-text">
                   <p>
-                    Soy Iván Maximiliano Monte, desarrollador de software con experiencia en diversas tecnologías.
-                    Mi enfoque se centra en crear soluciones eficientes y adaptadas a las necesidades actuales. A través
-                    de
-                    mi marca personal, MonteStack, ofrezco servicios de desarrollo personalizados, siempre comprometido
-                    con
-                    la calidad y la mejora continua. Mi objetivo es ayudar a empresas y emprendedores a llevar sus
-                    ideas a la realidad con un enfoque práctico y accesible.
+                    "Soy Iván Maximiliano Monte, desarrollador de software detrás de MonteStack. Ofrezco soluciones de
+                    desarrollo a medida para empresas y emprendedores, transformando ideas en productos reales con un
+                    enfoque práctico y de calidad."
                   </p>
                 </div>
               </div>
@@ -109,6 +105,10 @@
                         <div class="skill">
                           <img src="/icons/nodejs.png" alt="Node.js" class="skill-icon" />
                           <p>Node.js</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/.net.png" alt="net" class="skill-icon" />
+                          <p>.net</p>
                         </div>
                         <div class="skill">
                           <img src="/icons/express.png" alt="Express.js" class="skill-icon" />
@@ -211,34 +211,27 @@
               <label for="name" class="form-label">Nombre</label>
               <input type="text" v-model="form.name" class="form-control" id="name" required
                 :class="{ 'is-invalid': formErrors.name }">
-              <div v-if="formErrors.name" class="invalid-feedback">
-                {{ formErrors.name }}
-              </div>
+              <div v-if="formErrors.name" class="invalid-feedback">{{ formErrors.name }}</div>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
               <input type="email" v-model="form.email" class="form-control" id="email" required
                 :class="{ 'is-invalid': formErrors.email }">
-              <div v-if="formErrors.email" class="invalid-feedback">
-                {{ formErrors.email }}
-              </div>
+              <div v-if="formErrors.email" class="invalid-feedback">{{ formErrors.email }}</div>
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Teléfono</label>
               <input type="text" v-model="form.phone" class="form-control" id="phone"
                 :class="{ 'is-invalid': formErrors.phone }">
-              <div v-if="formErrors.phone" class="invalid-feedback">
-                {{ formErrors.phone }}
-              </div>
+              <div v-if="formErrors.phone" class="invalid-feedback">{{ formErrors.phone }}</div>
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Mensaje</label>
               <textarea v-model="form.message" class="form-control" id="message" rows="3" required
                 :class="{ 'is-invalid': formErrors.message }"></textarea>
-              <div v-if="formErrors.message" class="invalid-feedback">
-                {{ formErrors.message }}
-              </div>
+              <div v-if="formErrors.message" class="invalid-feedback">{{ formErrors.message }}</div>
             </div>
+            <!-- Implementa aquí tu reCAPTCHA -->
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
           <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
