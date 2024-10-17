@@ -57,7 +57,6 @@
             <!-- Información Personal -->
             <div class="col-md-6">
               <div class="info-box">
-                <h3>Quién Soy</h3>
                 <img src="ivanProf.jpeg" alt="Iván Maximiliano Monte" class="about-me-image" />
                 <div class="about-me-text">
                   <p>
@@ -488,9 +487,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* Alineación centrada */
   gap: 20px;
-  /* Espacio entre las habilidades */
   margin-top: 20px;
 }
 
@@ -498,7 +495,6 @@ export default {
   text-align: center;
   margin: 10px;
   flex: 1 0 150px;
-  /* Mínimo de 150px para que las tarjetas no sean muy pequeñas */
   background-color: #f8f9fa;
   border-radius: 8px;
   padding: 15px;
@@ -532,36 +528,39 @@ h4 {
 
 .projects {
   margin-top: 60px;
-  /* Aumentado el margen superior */
 }
 
 .project-box {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  height: 350px;
-  /* Asegura que todos los cuadros tengan la misma altura */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  height: 320px;
+  /* Reducir la altura del cuadro */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-bottom: 30px;
-  /* Añadido margen inferior */
+  margin-bottom: 20px;
+  /* Menos margen inferior para compactar los elementos */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para que el cuadro se destaque */
+.project-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 .project-box img {
-  display: block;
-  /* Hace que la imagen se comporte como un bloque */
-  margin: 0 auto;
-  /* Centra la imagen horizontalmente */
-  width: 100%;
-  /* Ajusta el tamaño de la imagen dentro de su contenedor */
-  height: 225px;
-  /* Define una alura fija para que todas las imagenes sean del mismo tamaño */
+  width: 80%;
+  max-height: 150px;
+  /* Altura fija más pequeña */
   object-fit: cover;
-  /* Asegura que la imagen mantenga su proporcion y se recorte si es necesario */
+  /* Mantiene las proporciones de la imagen */
+  border-radius: 5px;
+  /* Borde redondeado para las imágenes */
 }
 
 .project-link {
@@ -570,13 +569,13 @@ h4 {
 }
 
 .project-link h4 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
 }
 
 .project-link p {
-  font-size: 1rem;
-  color: #495057;
+  font-size: 0.95rem;
+  color: #6c757d;
 }
 
 .contact-form {
@@ -626,12 +625,6 @@ h4 {
     /* Espacio entre la imagen y el texto */
   }
 
-  /*
-  .about-me-image {
-    width: 100%; 
-    max-width: none; 
-  } */
-
   .info-box {
     margin-bottom: 20px;
     /* Ajustado el margen inferior */
@@ -642,6 +635,8 @@ h4 {
   }
 
   .skill {
+    flex: 1 0 45%;
+    /* Ocupa aproximadamente la mitad del ancho, para dos columnas */
     margin: 10px 0;
   }
 }
