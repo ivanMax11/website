@@ -3,9 +3,9 @@
       <div class="container">
         <p>&copy; {{ currentYear }} Montestack. Todos los derechos reservados.</p>
         <div class="social-links">
-          <a href="https://www.instagram.com/ivan.maxdev/?next=%2F" target="_blank" rel="noopener noreferrer" ><img src="/icons/insta.png" alt="instagram-icon"></a>
+          <a href="https://www.instagram.com/montestack/" target="_blank" rel="noopener noreferrer" ><img src="/icons/insta.png" alt="instagram-icon"></a>
           <a href="https://www.facebook.com/profile.php?id=61554865662152&locale=es_LA" target="_blank" rel="noopener noreferrer"><img src="/icons/fcbk.png" alt="facebook-icon"></a>
-          <a href="https://linkedin.com/in/tu_usuario" target="_blank" rel="noopener noreferrer"><img src="/icons/lnkdn.png" alt="linkedin-logo"></a>
+          <a href="https://www.linkedin.com/in/ivan-maximiliano-monte/" target="_blank" rel="noopener noreferrer"><img src="/icons/lnkdn.png" alt="linkedin-logo"></a>
         </div>
       </div>
     </footer>
