@@ -1,18 +1,14 @@
-const { Sequelize } = require('sequelize');
+const mongoose = require('mongoose');
 require('dotenv').config();
 
-const sequelize = new Sequelize(
-  process.env.DB_NAME,
-  process.env.DB_USER,
-  process.env.DB_PASSWORD,
-  {
-    host: process.env.DB_HOST,
-    port: process.env.DB_PORT,  // Asegúrate de incluir el puerto
-    dialect: process.env.DB_DIALECT,
-    dialectOptions: {
-      connectTimeout: 60000, // Tiempo de espera de 60 segundos
-    },
+const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log('Conectado a MongoDB');
+  } catch (error) {
+    console.error('Error al conectar a MongoDB:', error);
+    process.exit(1); // Salir del proceso en caso de fallo
   }
-);
+};
 
-module.exports = sequelize;
+module.exports = connectDB;

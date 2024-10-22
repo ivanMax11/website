@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const sequelize = require('./config/database');
+const connectDB = require('./config/database'); // Nueva conexión con MongoDB
 const contactRoutes = require('./routes/contacts');
 
 // Configura CORS
@@ -17,8 +17,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/contacts', contactRoutes);
 
 // Conectar a la base de datos y empezar el servidor
-sequelize.sync().then(() => {
-  app.listen(3000, () => {
-    console.log('Servidor corriendo en el puerto 3000');
-  });
+connectDB(); // Llamar a la función para conectar a MongoDB
+
+app.listen(3000, () => {
+  console.log('Servidor corriendo en el puerto 3000');
 });

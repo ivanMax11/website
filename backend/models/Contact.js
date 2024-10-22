@@ -1,23 +1,31 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database'); // Ajusta la ruta según tu estructura
+const mongoose = require('mongoose');
 
-const Contact = sequelize.define('Contact', {
+const ContactSchema = new mongoose.Schema({
   name: {
-    type: DataTypes.STRING,
-    allowNull: false
+    type: String,
+    required: true,
+    minlength: 3
   },
   email: {
-    type: DataTypes.STRING,
-    allowNull: false
+    type: String,
+    required: true,
+    match: /^[^\s@]+@[^\s@]+\.[^\s@]+$/
   },
   message: {
-    type: DataTypes.TEXT,
-    allowNull: false
+    type: String,
+    required: true,
+    minlength: 10
   },
   phone: {
-    type: DataTypes.STRING, // Puedes ajustar el tipo si lo prefieres
-    allowNull: true
+    type: String,
+    validate: {
+      validator: function(v) {
+        return /^\d{10}$/.test(v);
+      },
+      message: props => `${props.value} no es un número de teléfono válido!`
+    },
+    required: false
   }
 });
 
-module.exports = Contact;
+module.exports = mongoose.model('Contact', ContactSchema);
