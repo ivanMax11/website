@@ -389,39 +389,31 @@ export default {
 }
 
 
+
 .about-me-content {
   display: flex;
-  flex-wrap: wrap;
-  /* Permite que el texto fluya alrededor de la imagen */
   align-items: flex-start;
-  /* Alinea la imagen y el texto al inicio */
-  text-align: left;
-  /* Alinea el texto a la izquierda */
+  min-height: 235px; /* Ajusta la altura mínima para que sea igual a la de la imagen */
 }
+
 
 .about-me-image {
   float: left;
-  /* Permite que el texto fluya alrededor de la imagen */
   max-width: 100%;
-  /* Asegura que la imagen no se exceda del contenedor */
   width: 160px;
-  /* Ancho fijo de la imagen para pantallas grandes */
-  height: 235px;
-  /* Mantiene la proporción de la imagen */
+  height: auto; /* Deja que la altura se ajuste automáticamente */
+  max-height: 235px; /* Limita la altura máxima para evitar que sea demasiado grande */
   border-radius: 8px;
-  /* Bordes redondeados */
   margin-right: 15px;
-  /* Espaciado a la derecha de la imagen */
   margin-bottom: 15px;
-  /* Espaciado debajo de la imagen */
+  object-fit: cover; /* Recorta la imagen para que siempre llene el espacio disponible */
 }
+
 
 .about-me-text {
   flex: 1;
   /* Permite que el texto ocupe el espacio restante */
 }
-
-
 
 .service-card {
   background-color: #f8f9fa;
