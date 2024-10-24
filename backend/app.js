@@ -6,7 +6,7 @@ const contactRoutes = require('./routes/contacts');
 
 // Configura CORS
 app.use(cors({
-  origin: ['http://localhost:8080', 'https://website-f.onrender.com']
+  origin: ['http://localhost:8080', 'https://website-f-olqm.onrender.com', 'https://website-pnfu.onrender.com']
 }));
 
 // Middleware
