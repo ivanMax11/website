@@ -60,9 +60,14 @@
                 <img src="ivanProf.jpeg" alt="Iván Maximiliano Monte" class="about-me-image" />
                 <div class="about-me-text">
                   <p>
-                    "Soy Iván Maximiliano Monte, desarrollador de software detrás de MonteStack. Ofrezco soluciones de
-                    desarrollo a medida para empresas y emprendedores, transformando ideas en productos reales con un
-                    enfoque práctico y de calidad."
+                    "Soy Iván M. Monte, desarrollador de software FulStack y fundador de MonteStack. Me especializo en
+                    ofrecer soluciones de desarrollo a medida, adaptadas a las necesidades de empresas y emprendedores
+                    que buscan transformar sus ideas en productos reales. 
+
+                    Mi objetivo es construir aplicaciones intuitivas y funcionales que no solo resuelvan problemas, sino
+                    que también aporten valor tangible a los usuarios. Trabajo estrechamente con mis clientes para
+                    entender sus necesidades y objetivos, brindando acompañamiento desde la concepción de la idea hasta
+                    el lanzamiento y mantenimiento del producto."
                   </p>
                 </div>
               </div>
@@ -388,29 +393,32 @@ export default {
   /* Aumentado el padding superior e inferior */
 }
 
-
-
 .about-me-content {
   display: flex;
   align-items: flex-start;
-  min-height: 235px; /* Ajusta la altura mínima para que sea igual a la de la imagen */
+  min-height: 235px;
+  /* Ajusta la altura mínima para que sea igual a la de la imagen */
 }
 
 
 .about-me-image {
   float: left;
   max-width: 100%;
-  width: 160px;
-  height: auto; /* Deja que la altura se ajuste automáticamente */
-  max-height: 235px; /* Limita la altura máxima para evitar que sea demasiado grande */
+  width: 170px;
+  height: auto;
+  /* Deja que la altura se ajuste automáticamente */
+  max-height: 235px;
+  /* Limita la altura máxima para evitar que sea demasiado grande */
   border-radius: 8px;
   margin-right: 15px;
   margin-bottom: 15px;
-  object-fit: cover; /* Recorta la imagen para que siempre llene el espacio disponible */
+  object-fit: cover;
+  /* Recorta la imagen para que siempre llene el espacio disponible */
 }
 
 
-.about-me-text {
+.about-me-text,
+p {
   flex: 1;
   /* Permite que el texto ocupe el espacio restante */
 }
