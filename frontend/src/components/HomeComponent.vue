@@ -62,7 +62,7 @@
                   <p>
                     "Soy Iván M. Monte, desarrollador de software FulStack y fundador de MonteStack. Me especializo en
                     ofrecer soluciones de desarrollo a medida, adaptadas a las necesidades de empresas y emprendedores
-                    que buscan transformar sus ideas en productos reales. 
+                    que buscan transformar sus ideas en productos reales.
 
                     Mi objetivo es construir aplicaciones intuitivas y funcionales que no solo resuelvan problemas, sino
                     que también aporten valor tangible a los usuarios. Trabajo estrechamente con mis clientes para
@@ -155,54 +155,68 @@
             </div>
           </div>
 
-          <!-- Proyectos Destacados -->
-          <div class="row">
-            <h3 class="text-center">Proyectos Destacados</h3>
-            <div class="col-md-4">
-              <div class="project-box">
-                <a href="https://newrepo-oaw4.onrender.com/" target="_blank" class="project-link">
-                  <h4>Sistema para venta de autos CSE Motors</h4>
-                  <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
-                  <img src="/cse340motors.png" alt="CSE Motors">
-                </a>
+          <div id="projectsCarousel" class="carousel slide projects" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-inner">
+              <!-- Grupo de Proyectos 1 -->
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <div class="project-box">
+                      <a href="https://newrepo-oaw4.onrender.com/" target="_blank" class="project-link">
+                        <h4>CSE Motors</h4>
+                        <p> Applicacion web para venta de vehiculos desarrollado con Node.js y PostgreSQL.</p>
+                        <img src="/cse340motors.png" alt="CSE Motors">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-box">
+                      <a href="https://managentsystem-1.onrender.com" target="_blank" class="project-link">
+                        <h4>Sistema de Gestion</h4>
+                        <p>Sistema de gestión de inventarios desarrollado con Node.js y MongoDB.</p>
+                        <img src="/dashboard.png" alt="Management System">
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!--      <div class="project-box">
-                <a href="" target="_blank" class="project-link">
-                  <h4>Inventario Management System</h4>
-                  <p>Sistema de gestión de inventarios desarrollado con Node.js y PostgreSQL.</p>
-                </a>
+              <!-- Grupo de Proyectos 2 -->
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <div class="project-box">
+                      <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
+                        <h4>NASA API Explorer</h4>
+                        <p>Aplicación web con API de la NASA para explorar contenido y descubrir información asombrosa.
+                        </p>
+                        <img src="/nasaApp.png" alt="NASA API Explorer">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-box">
+                      <a href="https://mevn-taskmanager-1.onrender.com/" target="_blank" class="project-link">
+                        <h4>Tasking</h4>
+                        <p>Aplicación para gestionar tareas con usuarios unificados.</p>
+                        <img src="/taskmanager.png" alt="Task Manager img">
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
-       -->
             </div>
-            <div class="col-md-4">
-              <div class="project-box">
-                <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
-                  <h4>NASA API Explorer</h4>
-                  <p>Aplicación web con API de la NASA para explorar contenido y descubrir información asombrosa.</p>
-                  <img src="/nasaApp.png" alt="NASA API Explorer">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="project-box">
-                <a href="https://mevn-taskmanager-1.onrender.com/" target="_blank" class="project-link">
-                  <h4>MEVN Task App</h4>
-                  <p>Aplicación para gestionar tareas con usuarios unificados.</p>
-                  <img src="/taskmanager.png" alt="Task Manager img">
-                </a>
-              </div>
-            </div>
-            <!--    <div class="col-md-4">
-              <div class="project-box">
-                <a href="https://yourproject3.com" target="_blank" class="project-link">
-                  <h4>Veterinary Clinics App</h4>
-                  <p>Aplicación para recopilar información sobre clínicas veterinarias.</p>
-                </a>
-              </div>
-              </div>
-   -->
+            <!-- Controles de navegación -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
           </div>
         </div>
+
       </section>
 
 
@@ -529,32 +543,29 @@ h4 {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   height: 320px;
-  /* Reducir la altura del cuadro */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-bottom: 20px;
-  /* Menos margen inferior para compactar los elementos */
+  margin: 10px;
+  /* Agregado para espaciado entre proyectos */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efecto hover para que el cuadro se destaque */
 .project-box:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 .project-box img {
-  width: 80%;
-  max-height: 150px;
-  /* Altura fija más pequeña */
+  width: 330px;
+  height: 150px;
   object-fit: cover;
-  /* Mantiene las proporciones de la imagen */
+  aspect-ratio: 16 / 9; /* Cambia a 4 / 3 o lo que prefieras */
   border-radius: 5px;
-  /* Borde redondeado para las imágenes */
 }
+
 
 .project-link {
   text-decoration: none;
@@ -570,6 +581,7 @@ h4 {
   font-size: 0.95rem;
   color: #6c757d;
 }
+
 
 .contact-form {
   max-width: 600px;
