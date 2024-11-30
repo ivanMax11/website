@@ -210,7 +210,7 @@
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next" >
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Siguiente</span>
             </button>
@@ -582,6 +582,15 @@ h4 {
   color: #6c757d;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #15435a; /* Fondo oscuro */
+  border-radius: 50%; /* Flecha en círculo */
+  width: 40px; /* Ajusta el tamaño */
+  height: 40px;
+}
+
+
 
 .contact-form {
   max-width: 600px;
@@ -644,5 +653,13 @@ h4 {
     /* Ocupa aproximadamente la mitad del ancho, para dos columnas */
     margin: 10px 0;
   }
+
+  .project-box img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  aspect-ratio: 16 / 9; /* Cambia a 4 / 3 o lo que prefieras */
+  border-radius: 5px;
+}
 }
 </style>
