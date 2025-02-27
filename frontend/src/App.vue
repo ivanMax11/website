@@ -20,4 +20,5 @@ export default {
 
 <style>
 /* Agrega tu estilo global aquí */
+#app {}
 </style>

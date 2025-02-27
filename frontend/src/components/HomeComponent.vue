@@ -19,7 +19,7 @@
             <!-- Servicio 1 -->
             <div class="col-md-4">
               <div class="service-card">
-                <img src="/icons/software-development.png" alt="Desarrollo de Software" class="service-icon" />
+                <img src="/icons/software-development.png" alt="icon" class="service-icon" />
                 <h3>Desarrollo de Software</h3>
                 <p>Creación de aplicaciones a medida utilizando las últimas tecnologías para cumplir con tus necesidades
                   específicas.</p>
@@ -29,7 +29,7 @@
             <!-- Servicio 2 -->
             <div class="col-md-4">
               <div class="service-card">
-                <img src="/icons/consultancy1.png" alt="Consultoría" class="service-icon" />
+                <img src="/icons/consultancy1.png" alt="Consultoría-icon" class="service-icon" />
                 <h3>Consultoría</h3>
                 <p>Asesoramiento experto en estrategias tecnológicas y soluciones para mejorar la eficiencia y
                   productividad de tu negocio.</p>
@@ -39,7 +39,7 @@
             <!-- Servicio 3 -->
             <div class="col-md-4">
               <div class="service-card">
-                <img src="/icons/support1.png" alt="Soporte Técnico" class="service-icon" />
+                <img src="/icons/support1.png" alt="Soporte-icon" class="service-icon" />
                 <h3>Soporte Técnico</h3>
                 <p>Asistencia técnica continua para resolver problemas y mantener tus sistemas funcionando sin
                   contratiempos.</p>
@@ -57,10 +57,11 @@
             <!-- Información Personal -->
             <div class="col-md-6">
               <div class="info-box">
-                <img src="ivanProf.jpeg" alt="Iván Maximiliano Monte" class="about-me-image" />
+                <h3>Mi descripción</h3>
+                <img src="ivanProf.jpeg" alt="Iván Monte-img" class="about-me-image" />
                 <div class="about-me-text">
                   <p>
-                    "Soy Iván M. Monte, desarrollador de software FulStack y fundador de MonteStack. Me especializo en
+                    "Soy Iván M. Monte, desarrollador Full-Stack y fundador de MonteStack. Me especializo en
                     ofrecer soluciones de desarrollo a medida, adaptadas a las necesidades de empresas y emprendedores
                     que buscan transformar sus ideas en productos reales.
 
@@ -83,15 +84,15 @@
                     <div class="carousel-item active">
                       <div class="skills d-flex justify-content-around">
                         <div class="skill">
-                          <img src="/icons/python.png" alt="Python" class="skill-icon" />
+                          <img src="/icons/python.png" alt="" class="skill-icon" />
                           <p>Python</p>
                         </div>
                         <div class="skill">
-                          <img src="/icons/csharp96.png" alt="C#" class="skill-icon" />
+                          <img src="/icons/csharp96.png" alt="" class="skill-icon" />
                           <p>C#</p>
                         </div>
                         <div class="skill">
-                          <img src="/icons/js.png" alt="JavaScript" class="skill-icon" />
+                          <img src="/icons/js.png" alt="" class="skill-icon" />
                           <p>JavaScript</p>
                         </div>
                       </div>
@@ -100,45 +101,71 @@
                     <div class="carousel-item">
                       <div class="skills d-flex justify-content-around">
                         <div class="skill">
-                          <img src="/icons/nuxt.png" alt="Nuxt" class="skill-icon" />
+                          <img src="/icons/nuxt.png" alt="" class="skill-icon" />
                           <p>Nuxt</p>
                         </div>
                         <div class="skill">
-                          <img src="/icons/vuejs.png" alt="Vue.js" class="skill-icon" />
+                          <img src="/icons/vuejs.png" alt="" class="skill-icon" />
                           <p>Vue.js</p>
                         </div>
                         <div class="skill">
-                          <img src="/icons/nodejs.png" alt="Node.js" class="skill-icon" />
+                          <img src="/icons/reactjs.png" alt="" class="skill-icon" />
+                          <p>React</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/nodejs.png" alt="" class="skill-icon" />
                           <p>Node.js</p>
                         </div>
                         <div class="skill">
-                          <img src="/icons/.net.png" alt="net" class="skill-icon" />
+                          <img src="/icons/.net.png" alt="" class="skill-icon" />
                           <p>.net</p>
                         </div>
                         <div class="skill">
-                          <img src="/icons/express.png" alt="Express.js" class="skill-icon" />
+                          <img src="/icons/express.png" alt="" class="skill-icon" />
                           <p>Express.js</p>
                         </div>
+                        <div class="skill">
+                          <img src="/icons/nextjs.png" alt="" class="skill-icon" />
+                          <p>Nextjs</p>
+                        </div>
+
                       </div>
                     </div>
                     <!-- Bases de Datos -->
                     <div class="carousel-item">
                       <div class="skills d-flex justify-content-around">
                         <div class="skill">
-                          <img src="/icons/mysql.png" alt="MySQL" class="skill-icon" />
+                          <img src="/icons/mysql.png" alt="" class="skill-icon" />
                           <p>MySQL</p>
                         </div>
                         <div class="skill">
-                          <img src="/icons/mongo.png" alt="MongoDB" class="skill-icon" />
+                          <img src="/icons/mongo.png" alt="" class="skill-icon" />
                           <p>MongoDB</p>
                         </div>
                         <div class="skill">
-                          <img src="/icons/postgre.png" alt="PostgreSQL" class="skill-icon" />
+                          <img src="/icons/postgre.png" alt="" class="skill-icon" />
                           <p>PostgreSQL</p>
                         </div>
                       </div>
                     </div>
+                    <div class="carousel-item">
+                      <div class="skills d-flex justify-content-around">
+                        <div class="skill">
+                          <img src="/icons/vuetify.png" alt="" class="skill-icon" />
+                          <p>Vuetify</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/bootstrap.png" alt="" class="skill-icon" />
+                          <p>Bootstrap</p>
+                        </div>
+                        <div class="skill">
+                          <img src="/icons/tailwind.png" alt="" class="skill-icon" />
+                          <p>Tailwind</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                  
                   <!-- Controles de navegación del carrusel -->
                   <button class="carousel-control-prev" type="button" data-bs-target="#skillsCarousel"
                     data-bs-slide="prev">
@@ -165,7 +192,7 @@
                       <a href="https://newrepo-oaw4.onrender.com/" target="_blank" class="project-link">
                         <h4>CSE Motors</h4>
                         <p> Applicacion web para venta de vehiculos desarrollado con Node.js y PostgreSQL.</p>
-                        <img src="/cse340motors.png" alt="CSE Motors">
+                        <img src="/cse340motors.png" alt="">
                       </a>
                     </div>
                   </div>
@@ -174,7 +201,17 @@
                       <a href="https://managentsystem-1.onrender.com" target="_blank" class="project-link">
                         <h4>Sistema de Gestion</h4>
                         <p>Sistema de gestión de inventarios desarrollado con Node.js y MongoDB.</p>
-                        <img src="/dashboard.png" alt="Management System">
+                        <img src="/dashboard.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-box">
+                      <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
+                        <h4>NASA API Explorer</h4>
+                        <p>Aplicación web con API de la NASA para explorar contenido y descubrir información asombrosa.
+                        </p>
+                        <img src="/nasaApp.png" alt="">
                       </a>
                     </div>
                   </div>
@@ -183,22 +220,31 @@
               <!-- Grupo de Proyectos 2 -->
               <div class="carousel-item">
                 <div class="row justify-content-center">
+                  
                   <div class="col-md-6">
                     <div class="project-box">
-                      <a href="https://ivanmax11.github.io/Challengewdd330/src/#" target="_blank" class="project-link">
-                        <h4>NASA API Explorer</h4>
-                        <p>Aplicación web con API de la NASA para explorar contenido y descubrir información asombrosa.
-                        </p>
-                        <img src="/nasaApp.png" alt="NASA API Explorer">
+                      <a href="https://acme-xcdb.vercel.app/dashboard" target="_blank" class="project-link">
+                        <h4>Acme</h4>
+                        <p>Aplicación para gestionar gastos y presupuestos.</p>
+                        <img src="/acme.png" alt="">
                       </a>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="project-box">
-                      <a href="https://mevn-taskmanager-1.onrender.com/" target="_blank" class="project-link">
-                        <h4>Tasking</h4>
+                      <a href="https://handcrafted-haven-steel.vercel.app/" target="_blank" class="project-link">
+                        <h4>Handcrafted</h4>
+                        <p>Comercio electronico para vendedores y compradores de productos elaborados.</p>
+                        <img src="/handcrafted.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-box">
+                      <a href="https://tienda-online-1-3oi2.onrender.com/" target="_blank" class="project-link">
+                        <h4>Tienda Online</h4>
                         <p>Aplicación para gestionar tareas con usuarios unificados.</p>
-                        <img src="/taskmanager.png" alt="Task Manager img">
+                        <img src="/t-online.png" alt="">
                       </a>
                     </div>
                   </div>
@@ -220,44 +266,64 @@
       </section>
 
 
-      <!-- Sección de contacto -->
-      <section id="contact" class="section contact-section">
-        <div class="container">
-          <h2 class="text-center">Contacto</h2>
-          <p class="text-center">Completa el siguiente formulario para ponerte en contacto conmigo:</p>
-          <form @submit.prevent="submitForm" class="contact-form" novalidate>
+      <!-- Sección de contacto  -->
+<section id="contact" class="section contact-section py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">¡Hagamos crecer tu negocio juntos! 🚀</h2>
+      <p class="lead text-dark ">Déjanos tu mensaje y te contactaremos lo antes posible.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow-lg p-4">
+          <h3 class="text-center mb-4">Contáctanos</h3>
+
+          <form @submit.prevent="submitForm" class="contact-form needs-validation" novalidate>
             <div class="mb-3">
-              <label for="name" class="form-label">Nombre</label>
-              <input type="text" v-model="form.name" class="form-control" id="name" required
+              <label for="name" class="form-label fw-semibold">Nombre</label>
+              <input type="text" v-model="form.name" class="form-control" id="name" placeholder="Tu nombre" required
                 :class="{ 'is-invalid': formErrors.name }">
               <div v-if="formErrors.name" class="invalid-feedback">{{ formErrors.name }}</div>
             </div>
+
             <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" v-model="form.email" class="form-control" id="email" required
+              <label for="email" class="form-label fw-semibold">Email</label>
+              <input type="email" v-model="form.email" class="form-control" id="email" placeholder="correo@ejemplo.com" required
                 :class="{ 'is-invalid': formErrors.email }">
               <div v-if="formErrors.email" class="invalid-feedback">{{ formErrors.email }}</div>
             </div>
+
             <div class="mb-3">
-              <label for="phone" class="form-label">Teléfono</label>
-              <input type="text" v-model="form.phone" class="form-control" id="phone"
+              <label for="phone" class="form-label fw-semibold">Teléfono</label>
+              <input type="text" v-model="form.phone" class="form-control" id="phone" placeholder="+54 9 11 1234 5678"
                 :class="{ 'is-invalid': formErrors.phone }">
               <div v-if="formErrors.phone" class="invalid-feedback">{{ formErrors.phone }}</div>
             </div>
+
             <div class="mb-3">
-              <label for="message" class="form-label">Mensaje</label>
-              <textarea v-model="form.message" class="form-control" id="message" rows="3" required
+              <label for="message" class="form-label fw-semibold">Mensaje</label>
+              <textarea v-model="form.message" class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí..." required
                 :class="{ 'is-invalid': formErrors.message }"></textarea>
               <div v-if="formErrors.message" class="invalid-feedback">{{ formErrors.message }}</div>
             </div>
-            <!-- Implementa aquí tu reCAPTCHA -->
-            <button type="submit" class="btn btn-primary">Enviar</button>
+
+            <!-- Implementa aquí tu reCAPTCHA si es necesario -->
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensaje</button>
+            </div>
           </form>
-          <div v-if="successMessage" class="alert alert-success mt-3" role="alert">
+
+          <div v-if="successMessage" class="alert alert-success mt-3 text-center" role="alert">
             ¡Gracias por contactarte conmigo! Serás redirigido a la página de inicio en unos momentos.
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     </div>
   </div>
@@ -287,7 +353,7 @@ export default {
       if (!form.value.email || !emailPattern.test(form.value.email)) {
         errors.email = 'Debes ingresar un email válido.';
       }
-      const phonePattern = /^[0-9]{10}$/; // Puedes ajustar la validación según el formato local
+      const phonePattern = /^[0-9]{10}$/;
       if (form.value.phone && !phonePattern.test(form.value.phone)) {
         errors.phone = 'El teléfono debe contener 10 dígitos.';
       }
@@ -339,7 +405,6 @@ export default {
 </script>
 
 <style scoped>
-@charset 'UTF-8';
 
 .home-section {
   background-image: url('/public/icons/desarrollo-web.png');
@@ -398,20 +463,17 @@ export default {
   background-color: #ffffff;
   border-top: 4px solid #e1b166;
   padding: 80px 20px;
-  /* Aumentado el padding superior e inferior */
 }
 
 .about-section {
   background-color: #f8f9fa;
   padding: 80px 20px;
-  /* Aumentado el padding superior e inferior */
 }
 
 .about-me-content {
   display: flex;
   align-items: flex-start;
   min-height: 235px;
-  /* Ajusta la altura mínima para que sea igual a la de la imagen */
 }
 
 
@@ -420,21 +482,17 @@ export default {
   max-width: 100%;
   width: 170px;
   height: auto;
-  /* Deja que la altura se ajuste automáticamente */
   max-height: 235px;
-  /* Limita la altura máxima para evitar que sea demasiado grande */
   border-radius: 8px;
   margin-right: 15px;
   margin-bottom: 15px;
   object-fit: cover;
-  /* Recorta la imagen para que siempre llene el espacio disponible */
 }
 
 
 .about-me-text,
 p {
   flex: 1;
-  /* Permite que el texto ocupe el espacio restante */
 }
 
 .service-card {
@@ -445,7 +503,6 @@ p {
   text-align: center;
   transition: background-color 0.3s, box-shadow 0.3s;
   margin-bottom: 30px;
-  /* Añadido margen inferior */
 }
 
 .service-card:hover {
@@ -474,7 +531,6 @@ p {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 30px;
-  /* Añadido margen inferior */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -527,7 +583,7 @@ p {
 
 h4 {
   width: 100%;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   margin: 20px 0 10px;
   color: #343a40;
@@ -549,7 +605,6 @@ h4 {
   align-items: center;
   text-align: center;
   margin: 10px;
-  /* Agregado para espaciado entre proyectos */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -562,7 +617,7 @@ h4 {
   width: 330px;
   height: 150px;
   object-fit: cover;
-  aspect-ratio: 16 / 9; /* Cambia a 4 / 3 o lo que prefieras */
+  aspect-ratio: 16 / 9; 
   border-radius: 5px;
 }
 
@@ -570,36 +625,60 @@ h4 {
 .project-link {
   text-decoration: none;
   color: #343a40;
+  font-size: 20px;
 }
 
 .project-link h4 {
-  font-size: 1.1rem;
+  font-size: 20px;
   margin-bottom: 8px;
 }
 
 .project-link p {
-  font-size: 0.95rem;
-  color: #6c757d;
+  font-size: 18px;
+  color: #063055;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #15435a; /* Fondo oscuro */
-  border-radius: 50%; /* Flecha en círculo */
-  width: 40px; /* Ajusta el tamaño */
+  background-color: #15435a; 
+  border-radius: 50%; 
+  width: 40px; 
   height: 40px;
 }
 
-
+#contact h2, h3 {
+  color: #15435a;
+}
 
 .contact-form {
-  max-width: 600px;
+  width: 100%; 
   margin: 0 auto;
+  padding: 20px;
 }
 
 .contact-form .form-control {
-  font-size: 0.875rem;
+  font-size: 1rem; 
+  padding: 12px; 
+  border-radius: 8px; 
 }
+
+.contact-form .form-label {
+  font-size: 1.1rem; 
+  font-weight: 600; 
+}
+
+.contact-form .btn-primary {
+  font-size: 1.2rem; 
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.contact-form .card {
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
 
 @media (max-width: 768px) {
 
@@ -614,34 +693,30 @@ h4 {
 
   .service-card {
     margin-bottom: 30px;
-    /* Aumentado el margen inferior */
+    
   }
 
   .about-section {
     padding: 40px 20px;
-    /* Aumentado el padding superior e inferior */
+    
   }
 
 
   .about-me-content {
     flex-direction: row;
-    /* Cambia a fila en pantallas grandes */
+    
     align-items: flex-start;
-    /* Alinea la imagen y el texto en la parte superior */
+    
   }
 
   .about-me-image {
     width: 150px;
-    /* Tamaño fijo para pantallas grandes */
     height: 220px;
-    /* Tamaño fijo para pantallas grandes */
     margin-right: 20px;
-    /* Espacio entre la imagen y el texto */
   }
 
   .info-box {
     margin-bottom: 20px;
-    /* Ajustado el margen inferior */
   }
 
   .skills {
@@ -650,7 +725,6 @@ h4 {
 
   .skill {
     flex: 1 0 45%;
-    /* Ocupa aproximadamente la mitad del ancho, para dos columnas */
     margin: 10px 0;
   }
 
@@ -658,7 +732,7 @@ h4 {
   width: 300px;
   height: 150px;
   object-fit: cover;
-  aspect-ratio: 16 / 9; /* Cambia a 4 / 3 o lo que prefieras */
+  aspect-ratio: 16 / 9;
   border-radius: 5px;
 }
 }

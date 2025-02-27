@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand d-flex align-items-center" href="#home">
       MonteStack
-      <img class="logo ms-2" src="icons/logoMonte.png" alt="Logo" />
+      <img class="logo ms-2" src="icons/logoMonte.png" alt="brand-img" />
     </a>
     <button
       class="navbar-toggler"
@@ -61,7 +61,7 @@ export default {
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 0;
 }
 
