@@ -651,7 +651,7 @@ h4 {
 }
 
 .contact-form {
-  width: 50%; 
+  width: 90%; 
   margin: 0 auto;
   padding: 20px;
 }

@@ -61,7 +61,7 @@ export default {
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 0;
 }
 
